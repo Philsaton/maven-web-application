@@ -92,16 +92,16 @@
 		</dependency>	
 	</dependencies>
 	<distributionManagement>
-	    <repository>
+	    <releasesrepository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Releases Nexus Repository</name>
 	      <url>http://13.57.6.110:8081/repository/mwa_releases/</url>
-	    </repository>
+	    </releasesrepository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Snapshot Nexus Repository</name>
-	      <url>http://13.57.6.110/repository/mwa_snapshots/</url>
+	      <url>http://13.57.6.110:8081/repository/mwa_snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
